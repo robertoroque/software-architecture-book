@@ -1,7 +1,6 @@
 # Material Design Lite
 
 Por [Roberto Roque Silva](https://github.com/robertoroque) e [Virgínia Azevedo Soares](https://github.com/virsoares)
-
 *Universidade Federal de Minas Gerais*
 
 Material Design Lite permite que  o visual e o layout do Material Design para Android seja incorporado aos websites. Material Design Lite não foi construído a partir de nenhum framework JavaScript e visa otimizar o uso em cross-device, ou seja, utilização em diferentes plataformas web e permitir que os websites sejam automaticamente acessíveis.
