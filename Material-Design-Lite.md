@@ -350,6 +350,7 @@ O componente Menu do MDL é um elemento da interface do usuário que permite a s
 As opções de menu são sempre apresentadas em conjuntos de dois ou mais e podem ser programaticamente ativadas ou desativadas, conforme necessário. O menu aparece quando o usuário é convidado a escolher entre uma séria de opções, e, geralmente, é dispensado após a escolha do item.
 
 ![Exemplo de Menu em MDL](http://i.imgur.com/6dMTpAk.png)
+
 *Imagem 11: Exemplo de Menu em MDL*
 
 ### Slider
@@ -359,6 +360,7 @@ O componente Slider do MDL é uma versão melhorada do elemento ```` <input type
 Slider é um recurso novo na interface de usuários, e permite que eles escolham um valor de um intervalo pré-determinado, movendo o polegar através do intervalo. 
 
 ![Exemplo de slider em MDL](http://i.imgur.com/poJ5W5P.png)
+
 *Imagem 12: Exemplo de Slider em MDL*
 
 ### Snackbar
@@ -366,6 +368,7 @@ Slider é um recurso novo na interface de usuários, e permite que eles escolham
 O componente Snackbar em MDL é um container usado para notificar o usuário sobre o status de uma operação. Ele é apresentado no botão da tela. Um snackbar pode conter um botão de ação para executar um comando para o usuário. As ações comprometidas devem ser desfeitas ou repetidas, se elas tiverem falhado, por exemplo. Se o snackbar não fornecer uma ação, então ele é um componente de brinde.
 
 ![Exemplo de Snackbar](http://i.imgur.com/OV5ouje.png)
+
 *Imagem 13: Exemplo de Snackbar em MDL*
 
 ### Checkbox
@@ -373,6 +376,7 @@ O componente Snackbar em MDL é um container usado para notificar o usuário sob
 O componente Checkbox do MDL é uma versão melhorada do padrão HTML ```` <input type="checkbox"> ````. Uma caixa de seleção consiste de um pequeno quadrado e, normalmente, o texto que comunica uma condição binária que será ativada ou desativada quando o usuário clica. As caixas de seleção, geralmente, aparecem em grupos e podem ser selecionadas ou desativadas individualmente. O componente permite que você adicione display e efeitos de clique.
 
 ![Exemplo de Checkbox em MDL](http://i.imgur.com/WBXYrWe.png)
+
 *Imagem 14: Exemplo de Checkbox em MDL*
 
 ### Radio Button
@@ -388,6 +392,7 @@ O componente Radio do MDL é uma versão aprimorada do padrão HTML ````  <input
 O componente icon-togle do MDL é uma versão aprimorada do padrão HTML ````<input type="checkbox">````. Um icon-togle consiste em um ícone definido pelo usuário que indica, por destaque visual, uma condição binária que será ativada ou desativada quando o usuário clicar. Assim como os componentes anteriores, eles podem aparecer individualmente ou em grupo.
 
 ![Exemplo de Icon-togle em MDL](http://i.imgur.com/gjI1rZm.png)
+
 *Imagem 16: Exemplo de Icon-togle em MDL*
 
 ### Switch
@@ -395,6 +400,7 @@ O componente icon-togle do MDL é uma versão aprimorada do padrão HTML ````<in
 O componente Switch do MDL é uma versão aprimorada do padrão HTML ````<input type="checkbox">````, assim como o componente anterior. O switch consiste de uma "faixa" horizontal com um indicador de estado circular em destaque e, normalmente, o texto que comunica um condição binária que será ativada ou desativada quando o usuário clicar.
 
 ![Exemplo de Switch em MDL](http://i.imgur.com/gRtBi3q.png)
+
 *Imagem 17: Exemplo de Switch em MDL*
 
 ### Text Field
@@ -402,6 +408,7 @@ O componente Switch do MDL é uma versão aprimorada do padrão HTML ````<input 
 O componente Text Field do MDL é uma versão aprimorada do HTML padrão ````<input type="text">```` e ````<input type="textarea">````. Um campo de texto consiste em uma linha horizontal que indica onde a entrada do teclado pode ocorrer e, normalmente, o texto que comunica o conteúdo previsto no text field.
 
 ![Exemplo de Text Field em MDL](http://i.imgur.com/meobvvO.png)
+
 *Imagem 18: Exemplo de Text Field em MDL*
 
 ### Tooltip
@@ -409,6 +416,7 @@ O componente Text Field do MDL é uma versão aprimorada do HTML padrão ````<in
 O componente Tooltip é uma versão melhorada do padrão HTML produzido pelo atributo ```` title ````. Uma tooltip consiste em texto e/ou imagem que comunica informações adicionais sobre um elemento quando o usuário passa por cima dele ou clica nele. O componente é pré-determinado para fornecer um elemento visual atraente que exibe conteúdo relacionado.
 
 ![Exemplo de Tooltip em MDL](http://i.imgur.com/jV25kLJ.png)
+
 *Imagem 19: Exemplo de Tooltip em MDL*
 
 ## Templates
