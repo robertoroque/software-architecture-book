@@ -121,6 +121,7 @@ O Grid de MDL é definido e fechado por um container. A grade tem 12 colunas no 
 Grids são um recurso relativamente novo e não-padronizado na maioria das interfaces de usuário, e fornecer aos usuários uma maneira de visualizar o conteúdo de uma forma organizada que poderia ser difícil de compreender ou manter. Sua concepção e utilização é um fator importante na experiência geral do usuário.
 
 ![Estrutura do Grid do MDL](https://i.imgur.com/1iZ5sjx.png)
+
 *Imagem 2: Estrutura do Grid do MDL*
 
 ### Tabs
@@ -132,6 +133,7 @@ Tabs servem como "posições" para seus respectivos conteúdos; a guia ativa - a
 Tabs são recursos estabelecidos, mas não padronizados em interfaces de usuários, permitem aos utilizadores visualizar blocos de conteúdos (geralmente chamados de painéis). Tabs salvam as telas nos estados reais e fornecem acesso intuitivo e lógico de dados, reduzindo a confusão dos usuários na navegação. Sua concepção e utilização é um fator importante na experiência geral do usuário.
 
 ![Estrutura do tab do MDL](http://i.imgur.com/RExinDJ.jpg)
+
 *Imagem 3: Estrutura do Tab do MDL*
 
 ### Button
