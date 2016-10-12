@@ -146,6 +146,8 @@ Os botões são recursos onipresentes na maiorias das interfaces de usuário, in
 
 ![Exemplos de botões do MDL](http://i.imgur.com/YwuiSsT.jpg)
 ![Exemplos de botões do MDL](http://i.imgur.com/aeJaFYS.jpg)
+
+
 *Imagem 4: Exemplos de botões do MDL*
 
 ### Table
@@ -155,6 +157,7 @@ O componente data-table do MDL é uma versão melhorada do elemento ```` <table>
 As linhas/colunas/células disponíveis em uma tabela de dados utilizam, em sua maioria, autoformatação, ou seja, uma vez que uma tabela é definida, as células individuais requerem pouca atenção específica. A sua facilidade de utilização a torna um componente conveniente para o programador e atraente e intuitiva para o usuário.
 
 ![Estrutura de uma tabela de dados do MDL](http://i.imgur.com/FCM1kCX.png)
+
 *Imagem 5: Estrutura de uma tabela de dados do MDL*
 
 Uma tabela de dados pode ser adicionada à uma página HTML, conforme a imagem acima, de acordo com o código de exemplo a seguir: 
@@ -198,6 +201,7 @@ Um badge pode ser usado para chamar a atenção do usuários para itens que ele 
 O badge é quase sempre acompanhado por um link, de forma que o usuário possa acessar facilmente a informação adicional indicada por ele. Badges é um novo recurso na interface de usuários, que visa ajuda-los a descobrir uma informação adicional relevante. Sua concepção e utilização é, portanto, um fator importante para a experiência geral do usuário.
 
 ![Exemplo de badge do MDL](http://i.imgur.com/v3RUUim.png)
+
 *Imagem 6: Exemplo de badge do MDL*
 
 ### Card
@@ -207,6 +211,7 @@ O componente Card do MDL é um elemento de interface que representa um pedaço d
 Os cartões são recursos convenientes para um exibição coerente de conteúdos relacionados compostos por objetos diferentes. Eles também são adequados para a apresentação de objetos semelhantes, cujo os tamanhos podem ser variados. Os cartões possuem largura constante e altura variável, dependendo do seu conteúdo.
 
 ![Exemplo de card do MDL](http://i.imgur.com/f0xmkab.png)
+
 *Imagem 7: Exemplo de cartão do MDL*
 
 ### Chips
@@ -214,6 +219,7 @@ Os cartões são recursos convenientes para um exibição coerente de conteúdos
 O componente Chip do MDL é um elementos pequeno e interativo. São comumente usados para contatos, textos, regras, ícones e fotos.
 
 ![Exemplo de chip em MDL](http://i.imgur.com/RvVkz4i.png)
+
 *Imagem 8: Exemplo de chip em MDL*
 
 Um chip pode ser adicionado à uma página HTML, conforme a imagem acima, de acordo com o código de exemplo a seguir: 
@@ -275,6 +281,7 @@ A partir do código abaixo é possível incluir um diolog no HTML, conforme no l
 As listas apresentam vários itens em linha vertical como um único elemento contínuo. Elas podem ser representadas de forma simples, com ícones, com avatares e ações, com avatares e controles, com duas linhas, com três linhas, entre outras opções.
 
 ![Exemplo de lsitas em MDL](http://i.imgur.com/sKibfp3.png)
+
 *Imagem 9: Exemplo de lista com avatar e controles em MDL*
 
 A lista representada no exemplo pode ser adicionada à página HTML a partir do código de exemplo a seguir:
