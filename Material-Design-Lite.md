@@ -220,6 +220,28 @@ Os cartões são recursos convenientes para uma exibição coerente de conteúdo
 
 *Imagem 8: Exemplo de cartão do MDL*
 
+Um cartão pode ser adicionado à uma página HTML, conforme imagem acima, de acordo com o código de exemplo a seguir:
+
+````html
+<div class="mdl-card">
+  <div class="mdl-card__title">
+     <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
+  </div>
+  <div class="mdl-card__media">
+    <img src="skytower.jpg" width="173" height="157" border="0" alt=""
+     style="padding:10px;">
+  </div>
+  <div class="mdl-card__supporting-text">
+  The Sky Tower is an observation and telecommunications tower located in Auckland,
+  New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
+  in the Southern Hemisphere.
+  </div>
+  <div class="mdl-card__actions">
+     <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
+  </div>
+</div>
+````
+
 ### Chips
 
 O componente Chip do MDL é um elementos pequeno e interativo. São comumente usados para contatos, textos, regras, ícones e fotos.
@@ -349,6 +371,17 @@ O componente Progress do MDL é um indicador visual da atividade de fundo de uma
 
 *Imagem 11: Exemplo de progress em MDL*
 
+Uma barra de progresso pode ser adicionada à uma página HTML conforme imagem acima, de acordo com o código a seguir:
+
+````html
+<!-- Simple MDL Progress Bar -->
+<div id="p1" class="mdl-progress mdl-js-progress"></div>
+<script>
+  document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(44);
+  });
+</script>
+````
 ### Menu
 
 O componente Menu do MDL é um elemento da interface do usuário que permite a seleção de um item, a partir de uma série de opções. A seleção normalmente resulta em uma ação, uma alteração na configuração ou outro efeito observável.
@@ -359,6 +392,23 @@ As opções de menu são sempre apresentadas em conjuntos de dois ou mais e pode
 
 *Imagem 12: Exemplo de Menu em MDL*
 
+Um Menu pode ser adicionado à uma página HTML conforme imagem acima, de acordo com o código a seguir:
+
+````html
+<!-- Left aligned menu below button -->
+<button id="demo-menu-lower-left"
+        class="mdl-button mdl-js-button mdl-button--icon">
+  <i class="material-icons">more_vert</i>
+</button>
+
+<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+    for="demo-menu-lower-left">
+  <li class="mdl-menu__item">Some Action</li>
+  <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Another Action</li>
+  <li disabled class="mdl-menu__item">Disabled Action</li>
+  <li class="mdl-menu__item">Yet Another Action</li>
+</ul>
+````
 ### Slider
 
 O componente Slider do MDL é uma versão melhorada do elemento ```` <input type="range"> ```` do novo HTML5. Um slider consiste em uma linha horizontal sobre a qual tem um pequeno disco móvel e, tipicamente, comunica o valor que vai ser definido quando o usuário o move.
@@ -369,6 +419,13 @@ Slider é um recurso novo na interface de usuários, e permite que eles escolham
 
 *Imagem 13: Exemplo de Slider em MDL*
 
+Um Slider pode ser adicionado à uma página HTML conforme imagem acima, de acordo com o código a seguir:
+````html
+<p style="width:300px">
+<input class="mdl-slider mdl-js-slider" type="range" id="s1" min="0" max="10" value="4" step="2">
+</p>
+````
+
 ### Snackbar
 
 O componente Snackbar em MDL é um container usado para notificar o usuário sobre o status de uma operação. Ele é apresentado no botão da tela. Um snackbar pode conter um botão de ação para executar um comando para o usuário. As ações comprometidas devem ser desfeitas ou repetidas, se elas tiverem falhado, por exemplo. Se o snackbar não fornecer uma ação, então ele é um componente de brinde.
@@ -377,6 +434,37 @@ O componente Snackbar em MDL é um container usado para notificar o usuário sob
 
 *Imagem 14: Exemplo de Snackbar em MDL*
 
+O Snackbar pode ser adicionado à uma página HTML conforme imagem acima, de acordo com o código a seguir:
+
+````html
+<button id="demo-show-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Snackbar</button>
+<div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+  <div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>
+</div>
+<script>
+(function() {
+  'use strict';
+  var snackbarContainer = document.querySelector('#demo-snackbar-example');
+  var showSnackbarButton = document.querySelector('#demo-show-snackbar');
+  var handler = function(event) {
+    showSnackbarButton.style.backgroundColor = '';
+  };
+  showSnackbarButton.addEventListener('click', function() {
+    'use strict';
+    showSnackbarButton.style.backgroundColor = '#' +
+        Math.floor(Math.random() * 0xFFFFFF).toString(16);
+    var data = {
+      message: 'Button color changed.',
+      timeout: 2000,
+      actionHandler: handler,
+      actionText: 'Undo'
+    };
+    snackbarContainer.MaterialSnackbar.showSnackbar(data);
+  });
+}());
+</script>
+````
 ### Checkbox
 
 O componente Checkbox do MDL é uma versão melhorada do padrão HTML ```` <input type="checkbox"> ````. Uma caixa de seleção consiste de um pequeno quadrado e, normalmente, o texto que comunica uma condição binária que será ativada ou desativada quando o usuário clica. As caixas de seleção, geralmente, aparecem em grupos e podem ser selecionadas ou desativadas individualmente. O componente permite que você adicione display e efeitos de clique.
@@ -385,6 +473,14 @@ O componente Checkbox do MDL é uma versão melhorada do padrão HTML ```` <inpu
 
 *Imagem 15: Exemplo de Checkbox em MDL*
 
+O Checkbox pode ser adicionado à uma página HTML conforme imagem acima, de acordo com o código a seguir:
+
+````html
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+  <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+  <span class="mdl-checkbox__label">Checkbox</span>
+</label>
+````
 ### Radio Button
 
 O componente Radio do MDL é uma versão aprimorada do padrão HTML ````  <input type = "radio"> ````. Um radio button consiste em um pequeno círculo e, tipicamente, o texto que comunica uma condição que será definida quando o usuário clicar. Radios buttons sempre aparecem em grupos de dois ou mais, e, quando eles podem ser selecionados individualmente, só podem ser desativados selecionando um botão de opção diferente no mesmo grupo.
@@ -393,6 +489,14 @@ O componente Radio do MDL é uma versão aprimorada do padrão HTML ````  <input
 
 *Imagem 16: Exemplo de Radio Button em MDL*
 
+O Radio pode ser adicionado à uma página HTML conforme imagem acima, de acordo com o código a seguir:
+
+````html
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+  <span class="mdl-radio__label">First</span>
+</label>
+````
 ### Icon-togle
 
 O componente icon-togle do MDL é uma versão aprimorada do padrão HTML ````<input type="checkbox">````. Um icon-togle consiste em um ícone definido pelo usuário que indica, por destaque visual, uma condição binária que será ativada ou desativada quando o usuário clicar. Assim como os componentes anteriores, eles podem aparecer individualmente ou em grupo.
@@ -400,6 +504,16 @@ O componente icon-togle do MDL é uma versão aprimorada do padrão HTML ````<in
 ![Exemplo de Icon-togle em MDL](http://i.imgur.com/gjI1rZm.png)
 
 *Imagem 17: Exemplo de Icon-togle em MDL*
+
+O icon-togle pode ser adicionado à uma página HTML conforme imagem acima, de acordo com o código a seguir:
+
+````html
+<label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-1">
+  <input type="checkbox" id="icon-toggle-1" class="mdl-icon-toggle__input" checked>
+  <i class="mdl-icon-toggle__label material-icons">format_bold</i>
+</label>
+
+````
 
 ### Switch
 
@@ -409,6 +523,13 @@ O componente Switch do MDL é uma versão aprimorada do padrão HTML ````<input 
 
 *Imagem 18: Exemplo de Switch em MDL*
 
+O Switch pode ser adicionado à uma página HTML conforme imagem acima, de acordo com o código a seguir:
+
+````html<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+  <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+  <span class="mdl-switch__label"></span>
+</label>
+````
 ### Text Field
 
 O componente Text Field do MDL é uma versão aprimorada do HTML padrão ````<input type="text">```` e ````<input type="textarea">````. Um campo de texto consiste em uma linha horizontal que indica onde a entrada do teclado pode ocorrer e, normalmente, o texto que comunica o conteúdo previsto no text field.
@@ -417,6 +538,18 @@ O componente Text Field do MDL é uma versão aprimorada do HTML padrão ````<in
 
 *Imagem 19: Exemplo de Text Field em MDL*
 
+O Text Field pode ser adicionado à uma página HTML conforme imagem acima, de acordo com o código a seguir:
+
+````html
+<!-- Simple Textfield -->
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1">Text...</label>
+  </div>
+</form>
+````
+
 ### Tooltip
 
 O componente Tooltip é uma versão melhorada do padrão HTML produzido pelo atributo ```` title ````. Uma tooltip consiste em texto e/ou imagem que comunica informações adicionais sobre um elemento quando o usuário passa por cima dele ou clica nele. O componente é pré-determinado para fornecer um elemento visual atraente que exibe conteúdo relacionado.
@@ -424,6 +557,16 @@ O componente Tooltip é uma versão melhorada do padrão HTML produzido pelo atr
 ![Exemplo de Tooltip em MDL](http://i.imgur.com/jV25kLJ.png)
 
 *Imagem 20: Exemplo de Tooltip em MDL*
+
+O Tooltip pode ser adicionado à uma página HTML conforme imagem acima, de acordo com o código a seguir:
+
+````html
+<!-- Large Tooltip -->
+<div id="tt2" class="icon material-icons">print</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="tt2">
+Print
+</div>
+````
 
 ## Templates
 O MDL não é uma biblioteca apenas de componentes individuais. Também existe embutido nele os templates completos de sites, para guiar a criação de forma rápida e simples de alguns tipos de sites mais comuns utilizando o visual do Material Design.
