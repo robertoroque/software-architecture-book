@@ -512,12 +512,11 @@ O icon-togle pode ser adicionado à uma página HTML conforme imagem acima, de a
   <input type="checkbox" id="icon-toggle-1" class="mdl-icon-toggle__input" checked>
   <i class="mdl-icon-toggle__label material-icons">format_bold</i>
 </label>
-
 ````
 
 ### Switch
 
-O componente Switch do MDL é uma versão aprimorada do padrão HTML ````<input type="checkbox">````, assim como o componente anterior. O switch consiste de uma "faixa" horizontal com um indicador de estado circular em destaque e, normalmente, o texto que comunica um condição binária que será ativada ou desativada quando o usuário clicar.
+O componente Switch do MDL é uma versão aprimorada do HTML padrão ````<input type="checkbox">````, assim como o componente anterior. O switch consiste de uma "faixa" horizontal com um indicador de estado circular em destaque e, normalmente, o texto que comunica um condição binária que será ativada ou desativada quando o usuário clicar.
 
 ![Exemplo de Switch em MDL](http://i.imgur.com/gRtBi3q.png)
 
@@ -525,11 +524,13 @@ O componente Switch do MDL é uma versão aprimorada do padrão HTML ````<input 
 
 O Switch pode ser adicionado à uma página HTML conforme imagem acima, de acordo com o código a seguir:
 
-````html<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+````html
+<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
   <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
   <span class="mdl-switch__label"></span>
 </label>
 ````
+
 ### Text Field
 
 O componente Text Field do MDL é uma versão aprimorada do HTML padrão ````<input type="text">```` e ````<input type="textarea">````. Um campo de texto consiste em uma linha horizontal que indica onde a entrada do teclado pode ocorrer e, normalmente, o texto que comunica o conteúdo previsto no text field.
