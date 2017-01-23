@@ -7,7 +7,13 @@ Por [Roberto Roque Silva](https://github.com/robertoroque) e [Virgínia Azevedo 
 Material Design Lite permite que  o visual e o layout do Material Design para Android seja incorporado aos websites. Material Design Lite não foi construído a partir de nenhum framework JavaScript e visa otimizar o uso em cross-device, ou seja, utilização em diferentes plataformas web e permitir que os websites sejam automaticamente acessíveis.
 
 ## Introdução
-Material Design Lite é uma biblioteca de componentes front-end que permite o desenvolvedor implementar a especificação do Material Design do Google usando HTML, CSS e JavaScript.  É uma implementação leve da especificação do Material Design (poucas dependências, baixa recursos, bem focado) por isso, chamado de "Lite".
+O Material Design é uma linguagem visual criada pela Google em 2014. É uma interface que unificou o visual do sistema Android com os dos aplicativos do Chrome OS e com as páginas da internet. A linguagem é composta por cores chapadas e vibrantes, novas fontes, ícones repaginados e a sensação de profundidade entre os aplicativos com as diferenças camadas que eles trazem.
+
+![Imagens do Material Design](http://i.imgur.com/2k6gNGl.jpg)
+
+*Imagem 1: Imagens do Material Design*
+
+Material Design Lite é uma biblioteca de componentes front-end que permite o desenvolvedor implementar a especificação do Material Design do Google usando HTML, CSS e JavaScript. É uma implementação leve da especificação do Material Design (poucas dependências, baixa recursos, bem focado) por isso, chamado de "Lite".
 
 O Material Design Lite é desenvolvido e mantido pela Google, sob a licença [Apache 2](https://github.com/google/material-design-lite/blob/master/LICENSE). 
 Foi lançado em Julho de 2015.
@@ -74,7 +80,7 @@ O componente de layout apresenta uma série de blocos de construção para a con
 O componente de Layout do MDL também inclui navegação, tabs, footers, cada um dos quais tem sido otimizado para diferentes tamanhos de janelas.
 
 ![Layout com header fixo](https://i.imgur.com/vpcBjss.png)
-*Imagem 1: Layout com header fixo*
+*Imagem 2: Layout com header fixo*
 
 Um Layout simples em MDL pode ser adicionado à uma página HTML, conforme a imagem acima, de acordo com o código de exemplo a seguir:
 ````html
@@ -122,7 +128,7 @@ Grid é um recurso relativamente novo e não-padronizado na maioria das interfac
 
 ![Estrutura do Grid do MDL](https://i.imgur.com/1iZ5sjx.png)
 
-*Imagem 2: Estrutura do Grid do MDL*
+*Imagem 3: Estrutura do Grid do MDL*
 
 ### Tabs
 
@@ -134,7 +140,7 @@ Tabs são recursos estabelecidos, mas não padronizados em interfaces de usuári
 
 ![Estrutura do tab do MDL](http://i.imgur.com/RExinDJ.jpg)
 
-*Imagem 3: Estrutura do Tab do MDL*
+*Imagem 4: Estrutura do Tab do MDL*
 
 ### Button
 
@@ -148,7 +154,7 @@ Os botões são recursos onipresentes na maiorias das interfaces de usuário, in
 ![Exemplos de botões do MDL](http://i.imgur.com/aeJaFYS.jpg)
 
 
-*Imagem 4: Exemplos de botões do MDL*
+*Imagem 5: Exemplos de botões do MDL*
 
 ### Table
 
@@ -158,7 +164,7 @@ As linhas/colunas/células disponíveis em uma tabela de dados utilizam, em sua 
 
 ![Estrutura de uma tabela de dados do MDL](http://i.imgur.com/FCM1kCX.png)
 
-*Imagem 5: Estrutura de uma tabela de dados do MDL*
+*Imagem 6: Estrutura de uma tabela de dados do MDL*
 
 Uma tabela de dados pode ser adicionada à uma página HTML, conforme a imagem acima, de acordo com o código de exemplo a seguir: 
 ````html
@@ -202,7 +208,7 @@ O badge é quase sempre acompanhado por um link, de forma que o usuário possa a
 
 ![Exemplo de badge do MDL](http://i.imgur.com/v3RUUim.png)
 
-*Imagem 6: Exemplo de badge do MDL*
+*Imagem 7: Exemplo de badge do MDL*
 
 ### Card
 
@@ -212,7 +218,7 @@ Os cartões são recursos convenientes para uma exibição coerente de conteúdo
 
 ![Exemplo de card do MDL](http://i.imgur.com/f0xmkab.png)
 
-*Imagem 7: Exemplo de cartão do MDL*
+*Imagem 8: Exemplo de cartão do MDL*
 
 ### Chips
 
@@ -220,7 +226,7 @@ O componente Chip do MDL é um elementos pequeno e interativo. São comumente us
 
 ![Exemplo de chip em MDL](http://i.imgur.com/RvVkz4i.png)
 
-*Imagem 8: Exemplo de chip em MDL*
+*Imagem 9: Exemplo de chip em MDL*
 
 Um chip pode ser adicionado à uma página HTML, conforme a imagem acima, de acordo com o código de exemplo a seguir: 
 
@@ -282,7 +288,7 @@ As listas apresentam vários itens em linha vertical como um único elemento con
 
 ![Exemplo de lsitas em MDL](http://i.imgur.com/sKibfp3.png)
 
-*Imagem 9: Exemplo de lista com avatar e controles em MDL*
+*Imagem 10: Exemplo de lista com avatar e controles em MDL*
 
 A lista representada no exemplo pode ser adicionada à página HTML a partir do código de exemplo a seguir:
 
@@ -341,7 +347,7 @@ O componente Progress do MDL é um indicador visual da atividade de fundo de uma
 
 ![Exemplo de progress em MDL](http://i.imgur.com/63zSHXE.png)
 
-*Imagem 10: Exemplo de progress em MDL*
+*Imagem 11: Exemplo de progress em MDL*
 
 ### Menu
 
@@ -351,7 +357,7 @@ As opções de menu são sempre apresentadas em conjuntos de dois ou mais e pode
 
 ![Exemplo de Menu em MDL](http://i.imgur.com/6dMTpAk.png)
 
-*Imagem 11: Exemplo de Menu em MDL*
+*Imagem 12: Exemplo de Menu em MDL*
 
 ### Slider
 
@@ -361,7 +367,7 @@ Slider é um recurso novo na interface de usuários, e permite que eles escolham
 
 ![Exemplo de slider em MDL](http://i.imgur.com/poJ5W5P.png)
 
-*Imagem 12: Exemplo de Slider em MDL*
+*Imagem 13: Exemplo de Slider em MDL*
 
 ### Snackbar
 
@@ -369,7 +375,7 @@ O componente Snackbar em MDL é um container usado para notificar o usuário sob
 
 ![Exemplo de Snackbar](http://i.imgur.com/OV5ouje.png)
 
-*Imagem 13: Exemplo de Snackbar em MDL*
+*Imagem 14: Exemplo de Snackbar em MDL*
 
 ### Checkbox
 
@@ -377,7 +383,7 @@ O componente Checkbox do MDL é uma versão melhorada do padrão HTML ```` <inpu
 
 ![Exemplo de Checkbox em MDL](http://i.imgur.com/WBXYrWe.png)
 
-*Imagem 14: Exemplo de Checkbox em MDL*
+*Imagem 15: Exemplo de Checkbox em MDL*
 
 ### Radio Button
 
@@ -385,7 +391,7 @@ O componente Radio do MDL é uma versão aprimorada do padrão HTML ````  <input
 
 ![Exemplo de Radio Button em MDL](http://i.imgur.com/ZCCIDN3.png)
 
-*Imagem 15: Exemplo de Radio Button em MDL*
+*Imagem 16: Exemplo de Radio Button em MDL*
 
 ### Icon-togle
 
@@ -393,7 +399,7 @@ O componente icon-togle do MDL é uma versão aprimorada do padrão HTML ````<in
 
 ![Exemplo de Icon-togle em MDL](http://i.imgur.com/gjI1rZm.png)
 
-*Imagem 16: Exemplo de Icon-togle em MDL*
+*Imagem 17: Exemplo de Icon-togle em MDL*
 
 ### Switch
 
@@ -401,7 +407,7 @@ O componente Switch do MDL é uma versão aprimorada do padrão HTML ````<input 
 
 ![Exemplo de Switch em MDL](http://i.imgur.com/gRtBi3q.png)
 
-*Imagem 17: Exemplo de Switch em MDL*
+*Imagem 18: Exemplo de Switch em MDL*
 
 ### Text Field
 
@@ -409,7 +415,7 @@ O componente Text Field do MDL é uma versão aprimorada do HTML padrão ````<in
 
 ![Exemplo de Text Field em MDL](http://i.imgur.com/meobvvO.png)
 
-*Imagem 18: Exemplo de Text Field em MDL*
+*Imagem 19: Exemplo de Text Field em MDL*
 
 ### Tooltip
 
@@ -417,7 +423,7 @@ O componente Tooltip é uma versão melhorada do padrão HTML produzido pelo atr
 
 ![Exemplo de Tooltip em MDL](http://i.imgur.com/jV25kLJ.png)
 
-*Imagem 19: Exemplo de Tooltip em MDL*
+*Imagem 20: Exemplo de Tooltip em MDL*
 
 ## Templates
 O MDL não é uma biblioteca apenas de componentes individuais. Também existe embutido nele os templates completos de sites, para guiar a criação de forma rápida e simples de alguns tipos de sites mais comuns utilizando o visual do Material Design.
@@ -476,18 +482,18 @@ Atualmente a empresa trabalha na versão 2 do MDL e por isso possui uma equipe d
 É possível verificar a contribuição atual dos principais desenvolvedores:
 
 ![Contribuição por desenvolvedor](https://i.imgur.com/NZ3O22s.png)
-*Imagem 20: Contribuição por desenvolvedor*
+*Imagem 21: Contribuição por desenvolvedor*
 
 ### Evolução do Sistema
 ![Adições e Deleções do MDL](https://i.imgur.com/ziHMXVV.png)
-*Imagem: 21 Adições e Deleções do MDL*
+*Imagem 22: Adições e Deleções do MDL*
 
 Pelo GitHub, é possível verificar que, até o momento, o repositório do MDL teve dois grandes volumes de entrada de arquivos fontes: no início do projeto, em meados de Junho de 2014 e um ano depois, no lançamento do produto para utilização.
 
 Durante o último ano, os commits no repositório não foram muito intesos. Mas ocorreram semanalmente, pois correspondem às correções e pequenas melhorias no código-fonte.
 
 ![Commits do último ano](https://i.imgur.com/jnFRXCn.png)
-*Imagem 22: Commits do último ano*
+*Imagem 23: Commits do último ano*
 
 
 ## Problemas
@@ -507,7 +513,7 @@ Atualmente, o produto está na versão 1.2.1 e está sendo desenvolvida a versã
 O andamento do último mês da equipe de desenvolvimento na resolução dos problemas (que pode ser bugs no código ou não) está representada pelos gráficos abaixo, extraídos do [GitHub](https://github.com/google/material-design-lite/pulse):
 
 ![Issues tracker](https://i.imgur.com/eE5LJQn.png)
-*Imagem 23: Gráficos de andamento das resoluções de problemas no MDL*
+*Imagem 24: Gráficos de andamento das resoluções de problemas no MDL*
 
 ### Melhorias
 Existe um roadmap já lançado para a versão 2 com diversas melhorias. Algumas delas:
@@ -539,3 +545,4 @@ O avanço de bibliotecas como o MDL são uma necessidade do mercado atual, que c
 5. Rendle, Robin. "BEM 101", https://css-tricks.com/bem-101/
 6. As imagens de 1 a 19 foram retiradas do [Site oficial do Material Design Lite](https://getmdl.io)
 7. As imagens 20 a 23 foram retiradas do [Repositório GitHub do Material Design Lite](https://github.com/google/material-design-lite)
+8. Castelli Ian. "Material Design: um olhar aprofundado sobre o novo estilo visual da Google", https://www.tecmundo.com.br/google/58278-material-design-olhar-aprofundado-novo-estilo-visual-google.htm
