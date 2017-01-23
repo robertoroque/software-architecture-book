@@ -20,7 +20,7 @@ Os componentes são usados para criar sites e aplicativos atraentes, consistente
 
 A biblioteca de componentes MDL inclui novas versões dos controles de interface de usuários comuns, tais como botões, caixas de seleção e campos de texto adaptados para seguir os conceitos de Material Design. A biblioteca também inclui recursos avançados e especializados, como cartões, layouts, sliders, spinners, tabs, tipografia, entre outros. 
 
-O MDL é gratuito para baixar e usar e pode ser usado com ou sem um ambiente de biblioteca ou de desenvolvimento. É um cross-browser, cross-OS web que pode ser usado por qualquer pessoa que queira escrever uma página web mais produtiva, portátil e, mais importante, utilizáveis.
+O MDL é gratuito para baixar e usar e pode ser usado com ou sem um ambiente de biblioteca ou de desenvolvimento. É um cross-browser, cross-OS web que pode ser usado por qualquer pessoa que queira escrever uma página web mais produtiva, portátil e, mais importante, utilizável.
 
 ### Utilização do MDL
 A utilização do Material Design Lite na construção de um site é bem simples e pode ser feita de duas formas diferentes:
@@ -50,7 +50,7 @@ Via NPM:
 ````npm
 npm install material-design-lite --save
 ````
-E depois refrenciar no seu HTML no cmainho que foi salvo:
+E depois referenciar no seu HTML no caminho que foi salvo:
 ````html
 <link rel="stylesheet" href="./material.min.css">
 <script src="./material.min.js"></script>
@@ -62,10 +62,10 @@ Material Design Lite (MDL) é uma biblioteca de componentes para desenvolvedores
 
 Compreensão dos objetivos e princípios do Material Design é fundamental para o uso adequado dos componentes do MDL.
 
-Como conceito de desenvolvimento e de técnica de UX e UI, o Material Design para Android usa o [Polymer](https://www.polymer-project.org/1.0/), que propõe para alta interatividade, sites orientado por dados e aplicativos. Já o MDL, foca primeiramente em sites com conteúdos simples como blogs, marketing e landing pages. Para isso, criou o conceito de Componentes.
+Como conceito de desenvolvimento e de técnica de UX e UI, o Material Design para Android usa o [Polymer](https://www.polymer-project.org/1.0/), que propõe para alta interatividade, sites orientados por dados e aplicativos. Já o MDL, foca primeiramente em sites com conteúdos simples como blogs, marketing e landing pages. Para isso, criou o conceito de Componentes.
 
 ### Layout
-Layout apropriado e acessível é uma característica fundamental de todas as interfaces de usuário, independentemente do conteúdo ou função de um site. design de página e apresentação é, portanto, um fator importante para a experiência geral do usuário. De acordo com as especificações do Material Design, o material que o Layout se baseia é o papel. A disposição da tela é como uma folha de papel, que pode ser dobrada para ser dividida, por exemplo.
+Layout apropriado e acessível é uma característica fundamental de todas as interfaces de usuário, independentemente do conteúdo ou função de um site. Design de página e apresentação é, portanto, um fator importante para a experiência geral do usuário. De acordo com as especificações do Material Design, o material que o Layout se baseia é o papel. A disposição da tela é como uma folha de papel, que pode ser dobrada para ser dividida, por exemplo.
 
 Uso de princípios de layout MDL simplifica a criação de páginas escaláveis, fornecendo componentes reutilizáveis e incentiva a consistência em ambientes através da criação de elementos visuais reconhecíveis, aderindo às redes estruturais lógicas, e mantendo espaçamento apropriado através de múltiplas plataformas e tamanhos de tela. Layout do MDL é extremamente poderoso e dinâmico, permitindo uma grande consistência na aparência e no comportamento, mantendo a flexibilidade de desenvolvimento e facilidade de uso.
 
@@ -118,7 +118,7 @@ O Grid de MDL é definido e fechado por um container. A grade tem 12 colunas no 
 * Se uma célula não se encaixa na linha em um dos tamanhos de tela, ela passa para a seguinte linha.
 * Se uma célula tem um tamanho de coluna igual ou maior do que o número de colunas para o tamanho da tela corrente, leva-se a totalidade da sua fila.
 
-Grids são um recurso relativamente novo e não-padronizado na maioria das interfaces de usuário, e fornecer aos usuários uma maneira de visualizar o conteúdo de uma forma organizada que poderia ser difícil de compreender ou manter. Sua concepção e utilização é um fator importante na experiência geral do usuário.
+Grid é um recurso relativamente novo e não-padronizado na maioria das interfaces de usuário, e fornecer aos usuários uma maneira de visualizar o conteúdo de uma forma organizada que poderia ser difícil de compreender ou manter. Sua concepção e utilização é um fator importante na experiência geral do usuário.
 
 ![Estrutura do Grid do MDL](https://i.imgur.com/1iZ5sjx.png)
 
@@ -126,7 +126,7 @@ Grids são um recurso relativamente novo e não-padronizado na maioria das inter
 
 ### Tabs
 
-O componente tab do MDL é um elemento da interface do usuário que permite que diferentes blocos de conteúdo compartilhem o mesmo espaço na tela de forma mutuamente exclusivos. Tabs são sempre apresentadas em conjuntos de duas ou mais, além de tornar mais fácil para explorar e alternar entre diferentes visões e aspectos funcionais de um aplicativo.
+O componente tab do MDL é um elemento da interface do usuário que permite que diferentes blocos de conteúdo compartilhem o mesmo espaço na tela de forma mutuamente exclusivos. Tabs são sempre apresentadas em conjuntos de duas ou mais e podem tornar mais fácil para explorar e alternar entre diferentes visões e aspectos funcionais de um aplicativo.
 
 Tabs servem como "posições" para seus respectivos conteúdos; a guia ativa - aquela cujo conteúdo é exibido no momento - é sempre visualmente distinguida dos outros para que o usuário saiba que lidera o conteúdo atual apresentado.
 
@@ -140,7 +140,7 @@ Tabs são recursos estabelecidos, mas não padronizados em interfaces de usuári
 
 O componente button do MDL é uma versão melhorada do elemento ```` <button> ```` do HTML padrão. Um botton consiste em texto e/ou imagem que comunica de forma clara qual ação ocorrerá quando o usuário clicar ou tocar. O componente button fornece vários tipos de botões que permitem que você adicione tanto a tela quanto os efeitos de clique.
 
-Os botões são recursos onipresentes na maiorias das interfaces de usuário, independe do conteúdo o função do site. Sua concepção é, portanto, um fator importante para a experiência geral do usuário.
+Os botões são recursos onipresentes na maiorias das interfaces de usuário, independe do conteúdo ou função do site. Sua concepção é, portanto, um fator importante para a experiência geral do usuário.
 
 ![Exemplos de botões do MDL](http://i.imgur.com/fSyqsBp.jpg)
 
@@ -208,7 +208,7 @@ O badge é quase sempre acompanhado por um link, de forma que o usuário possa a
 
 O componente Card do MDL é um elemento de interface que representa um pedaço de papel virtual que contém dados relacionados - como foto, texto e link - e são todos sobre um único assunto.
 
-Os cartões são recursos convenientes para um exibição coerente de conteúdos relacionados compostos por objetos diferentes. Eles também são adequados para a apresentação de objetos semelhantes, cujo os tamanhos podem ser variados. Os cartões possuem largura constante e altura variável, dependendo do seu conteúdo.
+Os cartões são recursos convenientes para uma exibição coerente de conteúdos relacionados compostos por objetos diferentes. Eles também são adequados para a apresentação de objetos semelhantes, cujo os tamanhos podem ser variados. Os cartões possuem largura constante e altura variável, dependendo do seu conteúdo.
 
 ![Exemplo de card do MDL](http://i.imgur.com/f0xmkab.png)
 
@@ -430,13 +430,13 @@ Os modelos disponíveis são:
 
 **2. Skin MDL do Android.com:** Versão atual do site do android.com construído com MDL. Conteúdo com uma navegação horizontal, recurso carrossel e longo formulário com rolagem sub páginas.
 
-**3. Dashboard:** Um template responsido e modular, construído para a visualização de dados e informações com uma navegação limpa e vertical, com perfil de usário, busca e espaço dedicado para atualizações e filtros.
+**3. Dashboard:** Um template responsivo e modular, construído para a visualização de dados e informações com uma navegação limpa e vertical, com perfil de usuário, busca e espaço dedicado para atualizações e filtros.
 
-**4. Portfolio:** Um template moderno e limpo construído com o MDL para ser usado como portfolio ou blog. Inclui uma navegação no top que utiliza o waterfall header como componente, cartões para exibir diferentes tipos de conteúdo e um rodapé.
+**4. Portfolio:** Um template moderno e limpo construído com o MDL para ser usado como portfolio ou blog. Inclui uma navegação no topo que utiliza o waterfall header como componente, cartões para exibir diferentes tipos de conteúdo e um rodapé.
 
-**5. Text-heavy webpage:** Construído para apresneter informações densas, falcimente atualizável e otimizado para a legibilidade. Este template possui uma barra de navegação horizontal e fixa, além de textos explicativos, cartões e um mapa do site no rodapé profundamente vinculado ao conteúdo.
+**5. Text-heavy webpage:** Construído para apresentar informações densas, facilmente atualizável e otimizado para a legibilidade. Este template possui uma barra de navegação horizontal e fixa, além de textos explicativos, cartões e um mapa do site no rodapé profundamente vinculado ao conteúdo.
 
-**6. Santd-alone article:** Um layout limpo otimizado para a apresnetação de um conteúdo baseado apenas em textos. Possui navegação breadcrumb ("caminho de pão"), pesquisa, cabeçalhos claros e um rodapé que utiliza uma estrutura de cards para mostrar o conteúdo.
+**6. Stand-alone article:** Um layout limpo otimizado para a apresentação de um conteúdo baseado apenas em textos. Possui navegação breadcrumb ("caminho de pão"), pesquisa, cabeçalhos claros e um rodapé que utiliza uma estrutura de cards para mostrar o conteúdo.
 
 ## Contexto
 Material Design Lite é uma implementação "vanilla" em CSS, HTML e JavaScript do Material Design também desenvolvido pela Google. O termo "vanilla" não se refere a nenhum framework ou algo "concreto" utilizado no desenvolvimento e sim ao estilo de desenvolvimento. Vanilla, do inglês baunilha, quer dizer que é algo simples, plano e sem adornos, como um sorvete de baunilha. O termo indica que é uma interface web simples.
@@ -450,10 +450,10 @@ Componentes do MDL foram projetados a partir do zero, com melhora progressiva em
 
 Um exemplo disso é o "Text only", que funciona somente com CSS sem nenhum uso de JavaScript (pode ser testado desligando o JavaScript pelo DevTools do Chrome, por exemplo).
 
-Esse comportamento no-JavaScript pode ser problemático em navegadores mais antigos, como o IE9, que não implementa de forma completa funções mais recentes do HTML5. Por outro lado, existem templates do MDL, como o Component page que utiliza mais JavaScript que os demais componentes.
+Esse comportamento no-JavaScript pode ser problemático em navegadores mais antigos, como o IE9, que não implementa de forma completa funções mais recentes do HTML5. Por outro lado, existem templates do MDL, como o Component page, que utilizam mais JavaScript que os demais componentes.
 
-MDL é implementado utilizando Sass, que é uma linguagem baseada em CSS que depois de compilada gera o CSS. Possui duas sintaxes diferentes, o SASS e o SCSS.
-A partir do Sass, é possível criar variáveis para que seja usada em blocos em que se repete, reaproveitar código (que não seja copiando e colando), funções de cor, extend, aninhamento de seletores CSS e operações matemáticas. 
+MDL é implementado utilizando SASS, que é uma linguagem baseada em CSS que depois de compilada gera o CSS. Possui duas sintaxes diferentes, o SASS e o SCSS.
+A partir do SASS, é possível criar variáveis para que seja usada em blocos em que se repete, reaproveitar código (que não seja copiando e colando), funções de cor, extend, aninhamento de seletores CSS e operações matemáticas. 
 
 ### Guia de Código
 O desenvolvimento do MDL seguiu os guias do Google, que é seu principal stakeholder, em todo o desenvolvimento e também um [stylelint config](https://github.com/google/material-design-lite/blob/master/.eslintrc.yaml) próprio do MDL.
@@ -493,9 +493,8 @@ Durante o último ano, os commits no repositório não foram muito intesos. Mas 
 ## Problemas
 
 Inúmeras questões UX existem com o Material Design e, naturalmente o Material Design Lite herda todos eles. Por exemplo, um dos elementos mais marcantes do MD, o botão flutuante, é frequentemente posicionado de forma inconsistente, e no celular, muitas vezes requer um esforço extra em seu polegar para tocar nele.
-MDL se sente como um quadro com uma agenda
 Em termos gerais, o MDL é bem construído, no entanto, existem algumas abordagens questionáveis; que é, por exemplo, mais uma estrutura que conta com o JavaScript para layout.
-MDL, inclui um pacote tipografia, que é onde as coisas ficam realmente "acorrentadas". A fonte padrão é Roboto, e embora você pode mudar isso, maioria dos usuários não vai fazê-lo.
+MDL, inclui um pacote tipografia, que é onde as coisas ficam realmente "acorrentadas". A fonte padrão é Roboto, e embora você possa mudar isso, a maioria dos usuários não vai fazê-lo.
 CSS frameworks como Bootstrap, e Foundation, sempre incluíram elementos visuais. Eles não têm, porém, sido tão distintas como MDL. MDL dá um passo mais longe do que a maioria dos frameworks, que entrega um estilo visual completo.
 
 ### Problemas comuns relatados
@@ -518,10 +517,10 @@ Existe um roadmap já lançado para a versão 2 com diversas melhorias. Algumas 
 * Criar botões com ícones;
 * Implementar os componentes: Date Picker, Chips, Data Table, Grid List, Bottom Navigation, etc.
 
-Extensões do MDL podem ser feitas locais por projeto, de acordo com a necessidade do desenvolvedor. Lembrando que é necessário utilizar os gruias de desenvolvimento e ferramentas citadas para que o código esteja alinhado com o MDL.
+Extensões do MDL podem ser feitas locais por projeto, de acordo com a necessidade do desenvolvedor. Lembrando que é necessário utilizar os guias de desenvolvimento e ferramentas citadas para que o código esteja alinhado com o MDL.
 
 ## Conclusão
-O Material Design Lite pode ser considerada uma biblioteca poderosa para o desenvolvimento web, uma vez que facilita o desenvolvimento, já que questões de usabilidade, como sites responsivos e adaptáveis, deixam de ser uma preocupação. Também aproxima o layout web do padrão mobile de aplicativos Android, assim criando uma identidade visual única e até desbancando outros produtos de Smartphones, como a Apple, que propõe o Flat Design somente no Mobile e "afastando" todo o mundo web.
+O Material Design Lite pode ser considerado como uma biblioteca poderosa para o desenvolvimento web, uma vez que facilita o desenvolvimento, já que questões de usabilidade, como sites responsivos e adaptáveis, deixam de ser uma preocupação. Também aproxima o layout web do padrão mobile de aplicativos Android, assim criando uma identidade visual única e até desbancando outros produtos de Smartphones, como a Apple, que propõe o Flat Design somente no Mobile e "afastando" todo o mundo web.
 
 O MDL não pretende substituir outros frameworks já existentes, como o Bootstrap, como dito na própria página oficial do MDL:
 > Material Desing Lite pode substituir muitas partes do Bootstrap. No entanto, ele não pretende ofertar todas as funcionalidades do Bootstrap. Em vez disso MDL pretende implementar os componentes especificados pela especificação do Material Design. Isso permite que ele para fornecer a solução mais abrangente e precisa disponível.
